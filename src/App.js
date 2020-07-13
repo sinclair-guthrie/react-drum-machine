@@ -1,59 +1,68 @@
 import React from 'react';
 import './App.css';
+import bassDrum from "./assets/bass_drum.mp3";
+import snare from "./assets/snare.mp3";
+import drumsticksHit from "./assets/drumsticks_hit.mp3";
+import hiHatClosed from "./assets/hi_hat_closed.mp3";
+import hiHatOpen from "./assets/hi_hat_open.mp3";
+import hiHatFootPedal from "./assets/hi_hat_foot_pedal.mp3";
+import floorTomDrum from "./assets/floor_tom_drum.mp3";
+import shh from "./assets/shh.mp3";
+import snap from "./assets/snap.mp3";
 
 const drumSounds = [
   {
     key: "Q",
     keyCode: 81,
-    link: "./assets/bass_drum.mp3",
+    link: bassDrum,
     descr: "bass drum"
   },
   {
     key: "W",
     keyCode: 87,
-    link: "./assets/snare.mp3",
+    link: snare,
     descr: "snare"
   },
   {
     key: "E",
     keyCode: 69,
-    link: "./assets/drumsticks_hit.mp3",
+    link: drumsticksHit,
     descr: "drumsticks hit"
   },
   {
     key: "A",
     keyCode: 65,
-    link: "./assets/hi_hat_closed.mp3",
+    link: hiHatClosed,
     descr: "hi-hat-closed"
   },
   {
     key: "S",
     keyCode: 83,
-    link: "./assets/hi_hat_open.mp3",
+    link: hiHatOpen,
     descr: "hi-hat-open"
   },
   {
     key: "D",
     keyCode: 68,
-    link: "./assets/hi_hat_foot_pedal.mp3",
+    link: hiHatFootPedal,
     descr: "hi-hat foot pedal"
   },
   {
     key: "Z",
     keyCode: 90,
-    link: "./assets/floor_tom_drum.mp3",
+    link: floorTomDrum,
     descr: "floor tom drum"
   },
   {
     key: "X",
     keyCode: 88,
-    link: "./assets/shh.mp3",
+    link: shh,
     descr: "shh"
   },
   {
     key: "C",
     keyCode: 67,
-    link: "./assets/snap.mp3",
+    link: snap,
     descr: "snap"
   }
 ];
