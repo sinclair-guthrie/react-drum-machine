@@ -5,55 +5,55 @@ const drumSounds = [
   {
     key: "Q",
     keyCode: 81,
-    link: "https://www.fesliyanstudios.com/play-mp3/6650",
+    link: "./assets/bass_drum.mp3",
     descr: "bass drum"
   },
   {
     key: "W",
     keyCode: 87,
-    link: "https://www.fesliyanstudios.com/play-mp3/6774",
+    link: "./assets/snare.mp3",
     descr: "snare"
   },
   {
     key: "E",
     keyCode: 69,
-    link: "https://www.fesliyanstudios.com/play-mp3/6677",
+    link: "./assets/drumsticks_hit.mp3",
     descr: "drumsticks hit"
   },
   {
     key: "A",
     keyCode: 65,
-    link: "https://www.fesliyanstudios.com/play-mp3/6700",
+    link: "./assets/hi_hat_closed.mp3",
     descr: "hi-hat-closed"
   },
   {
     key: "S",
     keyCode: 83,
-    link: "https://www.fesliyanstudios.com/play-mp3/6711",
+    link: "./assets/hi_hat_open.mp3",
     descr: "hi-hat-open"
   },
   {
     key: "D",
     keyCode: 68,
-    link: "https://www.fesliyanstudios.com/play-mp3/6708",
-    descr: "high-hat foot pedal"
+    link: "./assets/hi_hat_foot_pedal.mp3",
+    descr: "hi-hat foot pedal"
   },
   {
     key: "Z",
     keyCode: 90,
-    link: "https://www.fesliyanstudios.com/play-mp3/6696",
+    link: "./assets/floor_tom_drum.mp3",
     descr: "floor tom drum"
   },
   {
     key: "X",
     keyCode: 88,
-    link: "https://www.fesliyanstudios.com/play-mp3/7052",
+    link: "./assets/shh.mp3",
     descr: "shh"
   },
   {
     key: "C",
     keyCode: 67,
-    link: "https://www.fesliyanstudios.com/play-mp3/2727",
+    link: "./assets/snap.mp3",
     descr: "snap"
   }
 ];
